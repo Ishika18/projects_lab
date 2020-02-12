@@ -1,5 +1,3 @@
-// Change I made to demonstrate my commit
-
 // Add DOM selectors to target input and UL movie list
 var inp = document.querySelector("input");
 var myMovieList = document.querySelector("ul");

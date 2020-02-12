@@ -1,3 +1,6 @@
+body{
+  background-color: aqua;
+}
 .flex {
     display: block;
     justify-content: space-between;
