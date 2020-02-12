@@ -36,6 +36,9 @@ function updateMovieHistory(movie) {
             <th style='width: 400px; text-align: right;'>Watched</th>
         </tr>
         ${
+            // map function, here, iterate over all the elements of the objects and return the element with added html, to work as a table
+            /* transformation function is executed inside the map function or specifically it is passed as a parameter to our map function
+            so, it is called a call-back function. */
             Object.keys(myMovies).map(function (key) {
                 return `<tr><td>${key}</td><td style='text-align: right;'>${myMovies[key]}</td></tr>`           
                 }).join("")
